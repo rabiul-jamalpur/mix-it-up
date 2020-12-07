@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domo file</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="mixiup">
+        <div class="container">
+            <!--header-->
+            <div class="heading text-center">
+                <h2>my project mixitup</h2>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Eaque officia neque vero doloremque
+                    ullam esse ea atque non sunt impedit <br> iste quidem dolore facere et qui voluptatum pariatur, <br>
+                    quisquam excepturi!</small>
+            </div>
+            <!--menu-->
+            <div class="menu text-center">
+                <button class="btn btn-primary" type="button" data-filter="all">All</button>
+                <button class="btn btn-primary" type="button" data-filter=".category-a">Web</button>
+                <button class="btn btn-primary" type="button" data-filter=".category-b">Apps</button>
+                <button class="btn btn-primary" type="button" data-filter=".category-c">Icons</button>
+            </div><br><br>
+            <!--mixitup-->
+            <div class="mixitup row">
+                <div class="mix category-a col-md-6" data-order="1">
+                    <img class="img-fluid" src="img/p1.png" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit</p>
+                </div>
+                <div class="mix category-b category-a col-md-6" data-order="2">
+                    <img class="img-fluid" src="img/p2.png" alt="">
+                    <p class="text-center">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="mix category-b category-c col-md-6" data-order="3">
+                    <img class="img-fluid" src="img/p3.png" alt="">
+                    <p class="text-center">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="mix category-a category-d col-md-6" data-order="4">
+                    <img class="img-fluid" src="img/p4.png" alt="">
+                    <p class="text-center">Lorem, ipsum dolor.<p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
